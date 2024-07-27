@@ -1,0 +1,26 @@
+.footer {
+  background-color: #4098bb;
+  color: white;
+  padding: 70px 0;
+  text-align: center;
+}
+.footer .social-media a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer .social-media a:hover {
+  color:  rgb(14, 6, 243);
+}
+.footer .contact-info {
+  margin-bottom: 20px;
+}
+.footer .contact-info p {
+  margin: 0;
+}
+.footer .copyright {
+  border-top: 1px solid #495057;
+  padding-top: 10px;
+  margin-top: 20px;
+}

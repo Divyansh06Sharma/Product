@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<div class="container">
+  <div class="image-side" *ngIf="product">
+    <header class="header" >
+      <img class="header-background" src="assets/image6.png" alt="Background image">
+      <div class="header-content">
+        <div class="text-container">
+          <h1>{{ product.title }}</h1>
+          <p>{{ product.description }}</p>
+        </div>
+      </div>
+    </header>
+    <img src="assets/ICIA2.png" alt="Left Side Image" class="img-style">
+  </div>
+  <div class="button-side">
+    <a href="https://emsme.com/">
+    <button type="button" class="btn btn-info avail-offer-button " >Avail Offer</button>
+  </a>
+  </div>
+</div>
+

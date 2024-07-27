@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<div class="container mt-4">
+
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let product of products">
+      <div class="card h-100 text-center">
+        <div class="card-header bg-primary text-white">
+          <img src="{{product.image}}" class="card-img-top rounded-circle mx-auto d-block" alt="{{product.title}}">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ product.title }}</h5>
+          <p class="card-text">{{ product.description }}</p>
+        </div>
+        <div class="card-footer">
+          <span class="text-danger">New</span>
+          <br>
+            <button type="button" class="btn btn-info" (click)="openDetailsPage(product.id)" >Visit Website</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
